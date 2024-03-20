@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: rgb(156, 54, 54);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 4rem;
+
+}
+
+.proyecto {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5625rem;
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(156, 54, 54);
+    align-items: center;
+    justify-content: flex-start;
+    height: 150px;
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: .625rem;
+}
+
+.sectionPrincipal {
+    background-color: rgba(0, 0, 0, 0.201);
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2.1875rem;
+    padding-top: 1.25rem;
+}
+
+.subTitulo {
+    font-size: 1.5625rem;
+    padding-top: 1.25rem;
+}
+
+.btnRegistro {
+    margin-top: 1.875rem;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    border-radius: .9375rem;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+.sectionDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .625rem;
+}
+
+.buscador {
+    font-size: 1.5625rem;
+    padding-top: 1.25rem;
+
+}
+
+.inputBuscador {
+    margin-top: .625rem;
+    width: 31.25rem;
+    padding: 10px;
+    border-radius: .625rem;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+.sectionTres {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+    padding-top: 1.25rem;
+    height: 31.25rem;
+}
+
+.sectionCuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+    padding-top: 1.25rem;
+    height: 31.25rem;
+}
+
+.formulario {
+    background-color: rgba(63, 60, 60, 0.45);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+}
+
+.contenedorRegistro {
+    background-color: rgba(128, 128, 128, 0.428);
+    padding-bottom: .9375rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.tituloFormulario {
+    padding: .625rem;
+
+}
+
+.btnSubmit {
+
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: .9375rem;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    margin-left: 1.875rem;
+}
+
+.inputRegistro {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: .3125rem;
+}
+
+.labelRegistro {
+    font-weight: bold;
+    font-size: .9375rem;
+
+}
