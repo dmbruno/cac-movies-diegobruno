@@ -56,7 +56,6 @@
 
 .sectionPrincipal {
     position: relative;
-    
     background-size: cover;
     width: 100%;
     height: 56.25rem;
@@ -79,29 +78,6 @@
     opacity: 0.7; 
     z-index: -1; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .titulo {
@@ -165,13 +141,13 @@
 }
 
 .sectionTres {
+    background-color: rgb(24,20,25);
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 1.875rem;
     padding-top: 1.25rem;
-    height: 37.5rem;
-    background-color: rgb(24,20,25);
+    
 }
 
 .sectionCuatro {
@@ -181,7 +157,8 @@
     align-items: center;
     font-size: 1.25rem;
     padding-top: 1.25rem;
-    height: 31.25rem;
+    padding-bottom: 3.75rem;
+    
 }
 
 .formulario {
@@ -232,3 +209,21 @@
     font-size: .9375rem;
 
 }
+.contenedorCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px; 
+    
+}
+.cards{
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 1.25rem;
+}
+
+.contenedorCards2{
+    display: inline-flex;
+    gap:40px;
+}
+
