@@ -2,30 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "nunito";
 }
 
 .contenedor {
-    background-color: rgb(156, 54, 54);
+    background-color: rgb(219,70,72);
     justify-content: space-between;
     align-items: center;
     display: flex;
     height: 4rem;
+}
 
+.contenedor nav {
+    margin-right: 3.125rem;
 }
 
 .proyecto {
     text-decoration: none;
     color: white;
-    font-size: 1.5625rem;
-    font-weight: bold;
-    margin: 10px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-left: 50px;
 }
 
 .link {
     text-decoration: none;
     color: white;
-    font-size: 1.5625rem;
+    font-size: 1.125rem;
     margin: 10px;
+    
 }
 
 .footer {
@@ -50,65 +55,127 @@
 }
 
 .sectionPrincipal {
-    background-color: rgba(0, 0, 0, 0.201);
+    position: relative;
+    
+    background-size: cover;
+    width: 100%;
+    height: 56.25rem;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.sectionPrincipal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/banner-bg.jpg");
+    background-size: cover;
+    opacity: 0.7; 
+    z-index: -1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .titulo {
-    font-size: 2.1875rem;
-    padding-top: 1.25rem;
+    font-size: 70px ;
+    padding-top: 5.3125rem;
+    color: aliceblue;
 }
 
 .subTitulo {
-    font-size: 1.5625rem;
+    font-size: 2.1875rem;
     padding-top: 1.25rem;
+    color: aliceblue;
+    margin-bottom: 1.25rem;
 }
 
 .btnRegistro {
-    margin-top: 1.875rem;
-    padding-left: .625rem;
-    padding-right: .625rem;
-    padding-top: .625rem;
-    padding-bottom: .625rem;
-    border-radius: .9375rem;
-    background-color: brown;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
+    font-size: 1.125rem;
+    text-decoration: none;
 }
+.contenedorBtnRegistro{
+    margin-top: 2.50rem ;
+    width: 9.375rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #9f3647;
+    border-radius: .9375rem;
+    padding: .625rem;
+    
+}
+
 
 .sectionDos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: .625rem;
+    height: 18.75rem;
+    background-color: rgb(24,20,25);
 }
 
 .buscador {
-    font-size: 1.5625rem;
+    font-size: 2.8125rem;
+    color: #ffffff;
     padding-top: 1.25rem;
 
 }
 
 .inputBuscador {
-    margin-top: .625rem;
-    width: 31.25rem;
+    margin-top: 1.625rem;
+    width: 46.875rem;
     padding: 10px;
-    border-radius: .625rem;
-    background-color: rgba(0, 0, 0, 0.34);
+    border: 3px solid white;
+    border-radius: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.25rem;
 }
 
 .sectionTres {
-    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.875rem;
     padding-top: 1.25rem;
-    height: 31.25rem;
+    height: 37.5rem;
+    background-color: rgb(24,20,25);
 }
 
 .sectionCuatro {
+    background-color: rgb(24,20,25);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +210,6 @@
 }
 
 .btnSubmit {
-
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     padding-top: .5rem;
