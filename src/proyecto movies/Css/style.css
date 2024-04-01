@@ -5,17 +5,38 @@
     font-family: "nunito";
 }
 
-.contenedor {
-    background-color: rgb(219,70,72);
-    justify-content: space-between;
-    align-items: center;
+.sectionPrincipal {
+    padding-top: 3.75rem;
+    background-image: url('../img/banner-bg.jpg');
+    background-size: cover;
+    min-height: 70vh; 
     display: flex;
-    height: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    
 }
 
-.contenedor nav {
-    margin-right: 3.125rem;
+.contenedor {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1.25rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+    z-index: 1000; /
 }
+.scrolled {
+    background-color: rgb(219,70,72); 
+}
+
+
+
 
 .proyecto {
     text-decoration: none;
@@ -35,7 +56,7 @@
 
 .footer {
     display: flex;
-    background-color: rgb(156, 54, 54);
+    background-color: rgb(219,70,72);
     align-items: center;
     justify-content: flex-start;
     height: 150px;
@@ -54,43 +75,30 @@
     border-radius: .625rem;
 }
 
-.sectionPrincipal {
-    position: relative;
-    background-size: cover;
-    width: 100%;
-    height: 56.25rem;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sectionPrincipal::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/banner-bg.jpg");
-    background-size: cover;
-    opacity: 0.7; 
-    z-index: -1; 
-}
-
 
 .titulo {
+    text-align: center;
     font-size: 70px ;
     padding-top: 5.3125rem;
     color: aliceblue;
 }
 
-.subTitulo {
+.subTituloSecPrin{
+    text-align: center;
     font-size: 2.1875rem;
     padding-top: 1.25rem;
     color: aliceblue;
-    margin-bottom: 1.25rem;
+    padding-bottom: 1.875rem;
+    
+}
+
+.subTitulo {
+    text-align: center;
+    font-size: 2.1875rem;
+    padding-top: 1.25rem;
+    color: aliceblue;
+    padding-bottom: 1.875rem;
+    background-color: rgb(24,20,25);
 }
 
 .btnRegistro {
@@ -99,11 +107,12 @@
     font-size: 1.125rem;
     text-decoration: none;
 }
+
 .contenedorBtnRegistro{
-    margin-top: 2.50rem ;
+
+    
     width: 9.375rem;
     display: flex;
-    align-content: center;
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -147,7 +156,8 @@
     align-items: center;
     font-size: 1.875rem;
     padding-top: 1.25rem;
-    
+    overflow-y: auto;
+    max-height: 56.25rem;
 }
 
 .sectionCuatro {
@@ -158,6 +168,8 @@
     font-size: 1.25rem;
     padding-top: 1.25rem;
     padding-bottom: 3.75rem;
+    overflow-x: auto;
+    
     
 }
 
@@ -225,5 +237,7 @@
 .contenedorCards2{
     display: inline-flex;
     gap:40px;
+    
+    
 }
 

@@ -7,20 +7,20 @@
     <title>CAC - Movies</title>
     <link rel="stylesheet" href="./Css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-
 
     <head>
         <div class="contenedor">
             <a href="" class="proyecto">CAC-Movies</a>
             <nav>
-                <a href="" class="link">Tendencias</a>
-                <a href="" class="link">Registrate</a>
+                <a href="#sectionTres" class="link">Tendencias</a>
+                <a href="./Registro.html" class="link">Registrate</a>
                 <button class="button">Iniciar Sesion</button>
             </nav>
         </div>
@@ -28,7 +28,7 @@
     <main>
         <section class="sectionPrincipal">
             <h1 class="titulo">Películas y series ilimitadas <br> y mucho más.</h1>
-            <h2 class="subTitulo">Disfruta donde quieras. Cancela cuando quieras</h2>
+            <h2 class="subTituloSecPrin">Disfruta donde quieras. Cancela cuando quieras</h2>
             <div class="contenedorBtnRegistro">
                 <a type="submit" class="btnRegistro" href="./Registro.html">Registrarse</a>
             </div>
@@ -37,9 +37,9 @@
             <h2 class="buscador">¿Qué estas buscando para ver?</h2>
             <input type="text" placeholder="Buscar..." class="inputBuscador">
         </section>
-        <section class="sectionTres">
-            <h3 class="subTitulo">Las tendencias de hoy</h3>
-            <div>
+        <section >
+            <h3 id="sectionTres" class="subTitulo">Las tendencias de hoy</h3>
+            <div class="sectionTres">
                 <div class="contenedorCards">
                     <div class="cards">card 1</div>
                     <div class="cards">card 2</div>
@@ -49,20 +49,36 @@
                     <div class="cards">card 6</div>
                     <div class="cards">card 7</div>
                     <div class="cards">card 8</div>
+                    <div class="cards">card 9</div>
+                    <div class="cards">card 10</div>
+                    <div class="cards">card 11</div>
+                    <div class="cards">card 12</div>
+                    <div class="cards">card 13</div>
+                    <div class="cards">card 14</div>
+                    <div class="cards">card 15</div>
                 </div>
             </div>
         </section>
-        <section class="sectionCuatro">
+        <section id="sectionCuatro">
             <h3 class="subTitulo">Las mas aclamadas</h3>
-            <div class="contenedorCards2">
-                <div class="cards">card 1</div>
-                <div class="cards">card 2</div>
-                <div class="cards">card 3</div>
-                <div class="cards">card 4</div>
-                <div class="cards">card 5</div>
-                <div class="cards">card 6</div>
-                <div class="cards">card 7</div>
-                <div class="cards">card 8</div>
+            <div class="sectionCuatro">
+                <div class="contenedorCards2">
+                    <div class="cards">card 1</div>
+                    <div class="cards">card 2</div>
+                    <div class="cards">card 3</div>
+                    <div class="cards">card 4</div>
+                    <div class="cards">card 5</div>
+                    <div class="cards">card 6</div>
+                    <div class="cards">card 7</div>
+                    <div class="cards">card 8</div>
+                    <div class="cards">card 9</div>
+                    <div class="cards">card 10</div>
+                    <div class="cards">card 11</div>
+                    <div class="cards">card 12</div>
+                    <div class="cards">card 13</div>
+                    <div class="cards">card 14</div>
+                    <div class="cards">card 15</div>
+                </div>
             </div>
         </section>
     </main>
@@ -72,6 +88,7 @@
         <a href="" class="linkFooter">Ayuda</a>
         <a href="" class="linkFooter">CRUD Películas</a>
     </footer>
+    <script src="./scroll.js"></script>
 </body>
 
 </html>
